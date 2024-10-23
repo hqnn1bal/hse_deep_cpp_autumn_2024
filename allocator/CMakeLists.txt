@@ -1,0 +1,9 @@
+﻿cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MTd")
+project(main)
+add_subdirectory(external/googletest)
+add_subdirectory(allocator)
+add_subdirectory(test)
+
+

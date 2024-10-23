@@ -1,0 +1,3 @@
+[submodule "allocator/external/googletest"]
+	path = allocator/external/googletest
+	url = https://github.com/google/googletest.git

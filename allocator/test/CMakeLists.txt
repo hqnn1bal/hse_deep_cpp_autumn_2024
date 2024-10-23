@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(test)
+add_executable(test_exec "source/test.cpp")
+target_link_libraries(test_exec gtest gtest_main)
+enable_testing()
+target_link_libraries(test_exec allocator)
