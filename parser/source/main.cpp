@@ -23,6 +23,6 @@ int main(int argc, char* argv[]) {
 		}
 		std::cout << std::endl;
 		});
-	std::string str = "tyr24\n			 122  9090 pl 3 hgfhgh567	yutyu iyooyo	666 uiui l 89898";
+	std::string str = "tyr24\t			 122  9090 pl 3 hgfhgh567	yutyu iyooyo	666 uiui l 89898";
 	tp.Parse(str);
 }
