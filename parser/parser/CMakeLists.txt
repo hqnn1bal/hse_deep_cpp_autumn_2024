@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 20)
+project(parser)
+add_library(parser source/parser.cpp)
+target_include_directories(parser PUBLIC include)

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 20)
+project(parsexmpl)
+include_directories(include)
+add_subdirectory(parser)
+add_executable(parsexmpl ./source/main.cpp)
+target_link_libraries(parsexmpl PUBLIC parser)
