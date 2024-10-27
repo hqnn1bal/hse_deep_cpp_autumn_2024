@@ -18,6 +18,7 @@ void Tokenparser::Parse(const std::string& str)
 
 	for (auto& symb : str) {
 		if (symb == ' ' or symb == '\t' or symb == '\n') {
+			if (ss.str().empty()) continue;
 			if (containsLetters(ss.str())) {
 				if (this->stringCallBack) this->stringCallBack(ss.str());
 			}
