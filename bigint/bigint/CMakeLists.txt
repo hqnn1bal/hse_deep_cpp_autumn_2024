@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+set(CXX_STANDARD_REQUIRED 17)
+project(bigint)
+add_library(bigint ./source/bigint.cpp)
+target_include_directories(bigint PUBLIC include)

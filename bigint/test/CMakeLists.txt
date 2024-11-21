@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 17)
+project(bgtest) 
+add_executable(testexec test.cpp)
+target_link_libraries(testexec gtest gtest_main)
+target_link_libraries(testexec bigint)
+enable_testing()
+add_test(NAME example_test COMMAND test_executable)
