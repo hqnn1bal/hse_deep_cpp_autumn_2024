@@ -4,3 +4,9 @@
 [submodule "parser/googletest"]
 	path = parser/googletest
 	url = https://github.com/google/googletest.git
+[submodule "matrix/external/googletest"]
+	path = matrix/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "bigint/external/googletest"]
+	path = bigint/external/googletest
+	url = https://github.com/google/googletest.git
